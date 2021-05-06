@@ -1,0 +1,909 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "Sarnen, Benediktinerkollegium, Cod. membr. 83",
+	"metadata": [
+		{
+			"label": "Location",
+			"value": "Sarnen"
+		},
+		{
+			"label": "Collection Name",
+			"value": "Benediktinerkollegium"
+		},
+		{
+			"label": "Shelfmark",
+			"value": "Cod. membr. 83"
+		},
+		{
+			"label": "Document Type",
+			"value": "Manuscript"
+		},
+		{
+			"label": "DOI",
+			"value": "10.5076/e-codices-bks-membr0083"
+		},
+		{
+			"label": "Title (English)",
+			"value": "Cycle of miniatures"
+		},
+		{
+			"label": "Material",
+			"value": "Parchment"
+		},
+		{
+			"label": "Place of Origin (English)",
+			"value": "Muri (?)"
+		},
+		{
+			"label": "Date of Origin (English)",
+			"value": "first half of the 12th century"
+		},
+		{
+			"label": "Number of Pages",
+			"value": "8"
+		},
+		{
+			"label": "Dimensions",
+			"value": "21 x 16 cm"
+		},
+		{
+			"label": "Online Since",
+			"value": "2010-06-22"
+		},
+		{
+			"label": "Summary (English)",
+			"value": "This cycle of miniatures from the first half of the 12th century is the work of two artists. The cycle was bound after having already been cut to create a volume; it is likely that it originally preceded a psalter."
+		},
+		{
+			"label": "Century",
+			"value": "12th century"
+		},
+		{
+			"label": "Text Language",
+			"value": "Latin"
+		}
+	],
+	"description": [
+		{
+			"@value": "This cycle of miniatures from the first half of the 12th century is the work of two artists. The cycle was bound after having already been cut to create a volume; it is likely that it originally preceded a psalter.",
+			"@language": "en"
+		}
+	],
+	"license": "http://creativecommons.org/licenses/by-nc/4.0/",
+	"attribution": "e-codices - Virtual Manuscript Library of Switzerland",
+	"logo": "https://www.e-codices.ch/img/logo-for-iiif-manifest.png",
+	"service": [
+		{
+			"@context": "https://www.w3.org/ns/webmention",
+			"@id": "https://www.e-codices.unifr.ch/webmention/receive",
+			"profile": "https://www.w3.org/ns/webmention",
+			"label": "e-codices Webmention Service"
+		}
+	],
+	"related": "https://www.e-codices.ch/en/list/one/bks/membr0083",
+	"within": "https://www.e-codices.ch/en/list/bks",
+	"seeAlso": [
+		{
+			"@id": "https://www.e-codices.unifr.ch/xml/tei_published/bks-membr0083.xml",
+			"@format": "application/tei+xml"
+		}
+	],
+	"sequences": [
+		{
+			"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/sequence/Sequence-203.json",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Standardabfolge",
+					"@language": "de"
+				},
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				},
+				{
+					"@value": "Séquence normale",
+					"@language": "fr"
+				},
+				{
+					"@value": "Sequenza normale",
+					"@language": "it"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e001.json",
+					"@type": "sc:Canvas",
+					"label": "Front cover",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e001.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e001.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e001.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e001.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e005.json",
+					"@type": "sc:Canvas",
+					"label": "Front paste-down",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e005.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e005.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e005.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e005.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_001r.json",
+					"@type": "sc:Canvas",
+					"label": "1r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_001r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_001r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_001r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_001r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_001v.json",
+					"@type": "sc:Canvas",
+					"label": "1v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_001v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_001v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_001v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_001v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					],
+					"metadata": [
+						{
+							"label": "Comment",
+							"value": "Verkündigung"
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_002r.json",
+					"@type": "sc:Canvas",
+					"label": "2r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_002r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_002r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_002r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_002r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_002v.json",
+					"@type": "sc:Canvas",
+					"label": "2v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_002v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_002v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_002v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_002v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_003r.json",
+					"@type": "sc:Canvas",
+					"label": "3r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_003r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_003r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_003r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_003r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_003v.json",
+					"@type": "sc:Canvas",
+					"label": "3v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_003v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_003v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_003v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_003v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_004r.json",
+					"@type": "sc:Canvas",
+					"label": "4r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_004r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_004r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_004r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_004r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_004v.json",
+					"@type": "sc:Canvas",
+					"label": "4v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_004v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_004v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_004v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_004v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_005r.json",
+					"@type": "sc:Canvas",
+					"label": "5r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_005r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_005r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_005r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_005r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_005v.json",
+					"@type": "sc:Canvas",
+					"label": "5v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_005v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_005v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_005v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_005v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_006r.json",
+					"@type": "sc:Canvas",
+					"label": "6r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_006r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_006r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_006r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_006r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_006v.json",
+					"@type": "sc:Canvas",
+					"label": "6v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_006v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_006v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_006v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_006v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_007r.json",
+					"@type": "sc:Canvas",
+					"label": "7r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_007r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_007r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_007r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_007r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_007v.json",
+					"@type": "sc:Canvas",
+					"label": "7v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_007v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_007v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_007v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_007v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_008r.json",
+					"@type": "sc:Canvas",
+					"label": "8r",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_008r.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_008r.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_008r.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_008r.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_008v.json",
+					"@type": "sc:Canvas",
+					"label": "8v",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_008v.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_008v.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_008v.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_008v.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e006.json",
+					"@type": "sc:Canvas",
+					"label": "Rear paste-down",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e006.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e006.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e006.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e006.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e003.json",
+					"@type": "sc:Canvas",
+					"label": "Back cover",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e003.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e003.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e003.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e003.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e002.json",
+					"@type": "sc:Canvas",
+					"label": "Spine",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e002.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e002.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e002.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e002.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e004.json",
+					"@type": "sc:Canvas",
+					"label": "Fore edge",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e004.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e004.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e004.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e004.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e007.json",
+					"@type": "sc:Canvas",
+					"label": "Head",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e007.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e007.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e007.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e007.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e008.json",
+					"@type": "sc:Canvas",
+					"label": "Tail",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_e008.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_e008.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e008.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_e008.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_MassE.json",
+					"@type": "sc:Canvas",
+					"label": "Ruler on binding",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_MassE.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_MassE.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_MassE.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_MassE.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_MassS.json",
+					"@type": "sc:Canvas",
+					"label": "Ruler on page",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_MassS.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_MassS.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_MassS.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_MassS.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilE.json",
+					"@type": "sc:Canvas",
+					"label": "QP card on binding",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_ProfilE.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilE.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilE.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilE.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilS.json",
+					"@type": "sc:Canvas",
+					"label": "QP card on page",
+					"height": 6496,
+					"width": 4872,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_ProfilS.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilS.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilS.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 6496,
+								"width": 4872,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilS.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				},
+				{
+					"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilSG.json",
+					"@type": "sc:Canvas",
+					"label": "Digital Colorchecker",
+					"height": 4872,
+					"width": 6496,
+					"images": [
+						{
+							"@id": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/annotation/bks-membr0083_ProfilSG.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://www.e-codices.unifr.ch/metadata/iiif/bks-membr0083/canvas/bks-membr0083_ProfilSG.json",
+							"resource": {
+								"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilSG.jp2/full/full/0/default/jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 4872,
+								"width": 6496,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://www.e-codices.unifr.ch/loris/bks/bks-membr0083/bks-membr0083_ProfilSG.jp2",
+									"profile": "http://iiif.io/api/image/2/level2.json"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
